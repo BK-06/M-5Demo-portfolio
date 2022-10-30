@@ -1,0 +1,102 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    color: #181717;
+    background-color: #E5E5E5;   
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* title and navbar section */
+
+#title{
+    font-family: 'DM Sans', sans-serif;
+    color: black;
+}
+
+
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    color: #181717;
+    font-size: 21px;
+}
+
+.container-fluid {
+    margin: 7% 14% 3%;
+}
+
+h1 {
+    font-size: 60px;
+    width: 45%;
+    height: 129px;
+    margin-top:-7%;
+}
+
+h2 {
+    padding-left: -20px;
+    color:#606060;
+    font-size: 32px;
+    line-height: 117%;
+    width: 32%;
+    top : 40%;
+    position: absolute;
+    right: 15%;
+
+}
+
+.down-arrow {
+    margin: 10% 0%;
+}
+
+/* features section */
+
+.project01 {
+    color: #181717;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.goblin {
+    width: 35%;
+    font-size: 18px;
+}
+
+.goblin-2 {
+    font-size: 14px;
+    width: 45%;
+}
+
+.goblin-image{
+    position: absolute;
+    right:27%;
+}
+
+.goblin-3 {
+    margin-top: 14%;
+    font-weight: bold;
+
+}
+
+/* footer */
+
+a:link { 
+    text-decoration: none; 
+}
+
+.footer-item {
+    padding-left: 40%;
+}
+
+.footer-item-2{
+    padding: 0% 1%;
+}
+
+@media (max-width:1080px) {
+    .goblin-image{
+        position: static;
+    }
+}
